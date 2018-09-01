@@ -1,6 +1,6 @@
 <?php
 
-namespace kl83\ymaps;
+namespace nycmic\ymaps;
 
 use Yii;
 

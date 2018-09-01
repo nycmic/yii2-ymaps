@@ -1,5 +1,5 @@
 {
-    "name": "kl83/yii2-ymaps",
+    "name": "nycmic/yii2-ymaps(fork)",
     "description": "Yii2 Yandex Maps toolkit",
     "require": {
         "yiisoft/yii2": "^2.0.0",
@@ -8,12 +8,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Aleksandr Solovyov",
-            "email": "solovyov.a.a.19@gmail.com"
+            "name": "Mic Nyc",
+            "email": "micnyc8@gmail.com"
         }
     ],
     "autoload": {
-        "psr-4": { "kl83\\ymaps\\": "src/" }
+        "psr-4": { "nycmic\\ymaps\\": "src/" }
     },
     "repositories": [
         {
