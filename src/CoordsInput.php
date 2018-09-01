@@ -21,6 +21,11 @@ class CoordsInput extends \yii\widgets\InputWidget
      */
     public $lngInputOptions = [];
 
+	/**
+	 * @var array Place input html-attributes.
+	 */
+	public $placeInputOptions = [];
+
     /**
      * @var array Ynadex map JS options.
      * ymaps.Widget(ID, <b>options</b>).
@@ -67,6 +72,7 @@ class CoordsInput extends \yii\widgets\InputWidget
         Html::addCssClass($this->options, 'coords-input');
         Html::addCssClass($this->latInputOptions, 'coords-lat');
         Html::addCssClass($this->lngInputOptions, 'coords-lng');
+	    Html::addCssClass($this->placeInputOptions, 'place');
         $this->options['data']['map'] = ArrayHelper::merge(
             $this->defaultYmapsClientOptions,
             $this->ymapsClientOptions
