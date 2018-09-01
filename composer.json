@@ -1,5 +1,5 @@
 {
-    "name": "nycmic/yii2-ymaps(fork)",
+    "name": "nycmic/yii2-ymaps",
     "description": "Yii2 Yandex Maps toolkit",
     "require": {
         "yiisoft/yii2": "^2.0.0",
