@@ -6,18 +6,20 @@ Widgets list:
 ## Installation
 The preferred way to install this extension is through [composer](https://getcomposer.org/).
 
-Either run
-
-```
-php composer.phar require nycmic/yii2-ymaps @dev
-```
-
-or add
+add to your composer json
 
 ```
 "nycmic/yii2-ymaps": "@dev"
 ```
 
+```
+  "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/nycmic/yii2-ymaps.git"
+        }
+  ],
+```
 to the require section of your composer.json file.
 
 ## Usage
